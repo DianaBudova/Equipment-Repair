@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  font-family: var(--font-family);
+  font-size: var(--font-size-m);
+}
+
+::selection {
+  color: var(--color-white);
+  background: var(--color-dark);
+  text-decoration: none;
+}

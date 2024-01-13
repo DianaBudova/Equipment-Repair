@@ -1,0 +1,9 @@
+.footer {
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    font-size: var(--font-size-s);
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    box-shadow: inset 0px 20px 20px rgba(var(--color-more-dark-rgb), 0.4);
+}

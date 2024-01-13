@@ -1,0 +1,31 @@
+.menu {
+    text-align: center;
+    background-color: var(--color-dark);
+    padding: 20px;
+    box-shadow: inset 0px -20px 20px rgba(var(--color-more-dark-rgb), 0.4);
+}
+
+.menu>* {
+    padding: 20px;
+    text-decoration: none;
+}
+
+.menu>.link {
+    color: var(--color-white);
+    transition: 0.2s;
+
+    /* background-size: 300% 300%;
+    transition: all .2s ease-in-out;
+    background-image: linear-gradient(to bottom, var(--color-dark), var(--color-dark), var(--color-dark-hover), var(--color-dark-hover)); */
+}
+
+.menu>.link:hover {
+    background-color: var(--color-dark-hover);
+
+    /* background-position: 50% 50%;
+    transition: all .2s ease-in-out; */
+}
+
+.menu>.active {
+    background-color: var(--color-dark-hover);
+}

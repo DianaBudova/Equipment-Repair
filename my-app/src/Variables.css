@@ -1,0 +1,26 @@
+:root {
+    --color-dark: #921818;
+    --color-dark-hover: #5f0606;
+    --color-more-dark: #3b0909;
+    --color-light: #d7c088;
+    --color-more-light: #e2cb8e;
+    --color-light-hover: #c5b07d;
+    --color-white: #fff9d2;
+    --color-white-hover: #e5dfb9;
+
+    --color-dark-rgb: 146, 24, 24;
+    --color-dark-hover-rgb: 95, 6, 6;
+    --color-more-dark-rgb: 59, 9, 9;
+    --color-light-rgb: 215, 192, 136;
+    --color-more-light-rgb: 226, 203, 142;
+    --color-light-hover-rgb: 197, 176, 125;
+    --color-white-rgb: 255, 249, 210;
+    --color-white-hover-rgb: 229, 223, 185;
+
+    --font-family: 'Trebuchet MS';
+    --font-size-xs: 14px;
+    --font-size-s: 20px;
+    --font-size-m: 28px;
+    --font-size-l: 32px;
+    --font-size-xl: 38px;
+  }

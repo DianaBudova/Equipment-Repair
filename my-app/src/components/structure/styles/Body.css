@@ -1,0 +1,22 @@
+.body {
+    flex: auto;
+    background-color: var(--color-light);
+    color: var(--color-dark);
+    text-align: center;
+    padding: 10px 120px;
+}
+
+.body * {
+    transition: 0.2s;
+}
+
+.body .caption {
+    font-size: var(--font-size-xl);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.body .text {
+    text-align: center;
+    margin: 20px 0;
+}
