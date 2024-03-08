@@ -9,6 +9,7 @@ import Types from "./components/pages/Types";
 import Guarantee from "./components/pages/Guarantee";
 import CreateFeedback from "./components/pages/CreateFeedback";
 import MakeOrder from "./components/pages/MakeOrder";
+import Documentation from "./components/pages/Documentation";
 import NotFound from "./components/pages/NotFound";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route path="/guarantee" element={<Guarantee />} />
           <Route path="/create-feedback" element={<CreateFeedback />} />
           <Route path="/make-order" element={<MakeOrder />} />
+          <Route path="/documentation" element={<Documentation />} />
         </Routes>
       </BrowserRouter>
     </div>

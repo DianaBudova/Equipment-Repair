@@ -13,6 +13,7 @@ function Menu() {
             <NavLink className="link" to="/types">Types</NavLink>
             <NavLink className="link" to="/guarantee">Guarantee</NavLink>
             <NavLink className="link" to="/make-order">Make Order</NavLink>
+            <NavLink className="link" to="/documentation">Documentation</NavLink>
         </div>
     );
 }
